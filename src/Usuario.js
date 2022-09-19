@@ -20,7 +20,7 @@ export default function Usuario() {
 
   return (
     <div class="usuario">
-      <img onClick={mudaImagem} src={imagem} />
+      <img onClick={mudaImagem} src={imagem} alt='' />
       <div class="texto">
         <strong>{usuario}</strong>
         <span>
@@ -37,7 +37,7 @@ function User(props) {
 
   return (
     <div class="usuario">
-      <img onclick={props.clickImagem} src={props.imagem} />
+      <img onclick={props.clickImagem} src={props.imagem} alt=''/>
       <div class="texto">
         <strong>{props.usuario}</strong>
         <span>

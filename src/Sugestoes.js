@@ -3,7 +3,7 @@ function Sugestao(props) {
 
         <div class="sugestao">
             <div class="usuario">
-                <img src={props.usuario_imagem} />
+                <img src={props.usuario_imagem} alt='' />
                 <div class="texto">
                     <div class="nome">{props.usuario_nome}</div>
                     <div class="razao"> {props.usuario_razao}</div>
@@ -21,21 +21,25 @@ export default function Sugestoes() {
 
     const array_sugestoes = [
         {
+
             imagem: "img/bad.vibes.memes.svg",
             nome: "bad.vibes.memes",
             razao: "Segue você"
         },
         {
+
             imagem: "img/chibirdart.svg",
             nome: "chibirdart",
             razao: "Segue você"
         },
         {
+
             imagem: "img/razoesparaacreditar.svg",
             nome: "razoesparaacreditar",
             razao: "Novo no Instagram"
         },
         {
+
             imagem: "img/adorable_animals.svg",
             nome: "adorable_animals",
             razao: "Segue você"
